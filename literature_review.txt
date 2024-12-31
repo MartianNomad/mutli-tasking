@@ -1,0 +1,33 @@
+
+
+As the age of internet advances and usage of online channels for financial tasks gains momentum there arises a crucial requirement
+of reliable and unfazed medium for completion of financial services. However digital fianance needs to combat multiple challengs including
+One such product of digital finance includes digital payments or electronic payments that can be made via mobile or microATMs.
+As these systems provide unparalled convenience, speed and accessibility one significant challenge involves, proliferation of fraud 
+transactions. As these systems grow sophisticate, so too do the tactics employed by cybercriminal\cite{b10}.
+
+Anamoly include human error, instrument faults, natural deviations in population, fraudlent behaviour. 
+There is a significant amount of research going on and has been done in financial anamoly detection. Frequenty used models like
+SVM, Logistic regression(LR), kNN, Random forest and neural networks\cite{b11}.
+
+One such machine learning model is the Graph Neual Network which relies on the underlying graph structure of edges, node etc to gain extra hidden type of 
+information while considering classification. Some application of GNNs include classification, recommendation systems, traffic forecasting and others\cite{b12}.
+Development of graphSage, GAT, GCN, GraphTransformer and GIN have progressed towards building a strong ecosystem in exploiting graph based structures for graph
+based classification and techniques. 
+The authours of\cite{b13} proposed PinSage which exploits random-walks in the graph structure to perform graph convolution and incorporated additional pooling
+and curriculum training that greatly increases the scalability of the system. Another application includes protein function prediction. It involves determining
+a protein's biological role based on its sequence, structure and other features. GNNs leverage graph representation of proteins along with many other node and
+edge level features like residues and binding sites which can be used to trained further to perform graph level classification. Authors of \cite{b14} introduce
+a novel architecture that employ this multi-relational graphs to discover complex and non-linear data association using class activation mapping.
+One major application of graphSage involves financial anamoly detection. 
+Detecting anamolous nodes in graph based structure using GNNs for financial tasks has been gaining more and more exposure as fraudlent behaviour becomes
+more and more sophisticated. 
+One such work involves using SCN_GNN which proposed node sampling strategy based on information of strong node and graph topology\cite{b15} paierd with recurisve scalable
+reinforcement learning(RSRL) module which further improves fraud detection performance but can lead to increased complexity.
+Pick and Choose Graph Neural Network(PCGNN) \cite{b16} solves the class imbalance problem by using a devised label based sampler to pick nodes and edges
+and forming a subgraph for mini-batch training however it does not tend to differnt types of non-fraud nodes while performing picking.
+
+
+
+
+
